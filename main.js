@@ -23,7 +23,7 @@ function renderTasks() {
 
     let deleteButton = document.createElement('span');
     deleteButton.classList.add('delete');
-    deleteButton.textContent = '❌';
+    deleteButton.textContent = ' ❌';
     deleteButton.addEventListener('click', function() {
       tasks.splice(index, 1);
       localStorage.setItem('tasks', JSON.stringify(tasks));
@@ -31,7 +31,7 @@ function renderTasks() {
     });
 
     let doneButton = document.createElement('span');
-    doneButton.textContent = '✅';
+    doneButton.textContent = ' ✅';
     doneButton.addEventListener('click', function() {
       task.done = !task.done;
       localStorage.setItem('tasks', JSON.stringify(tasks));
