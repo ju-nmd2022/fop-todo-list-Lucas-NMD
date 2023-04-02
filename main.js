@@ -21,17 +21,17 @@ function renderTasks() {
       li.classList.add('done');
     }
 
-    let deleteButton = document.createElement('button');
-    deleteButton.innerText = 'Delete';
+    let deleteButton = document.createElement('span');
     deleteButton.classList.add('delete');
+    deleteButton.textContent = '❌';
     deleteButton.addEventListener('click', function() {
       tasks.splice(index, 1);
       localStorage.setItem('tasks', JSON.stringify(tasks));
       renderTasks();
     });
 
-    let doneButton = document.createElement('button');
-    doneButton.innerText = 'Done';
+    let doneButton = document.createElement('span');
+    doneButton.textContent = '✅';
     doneButton.addEventListener('click', function() {
       task.done = !task.done;
       localStorage.setItem('tasks', JSON.stringify(tasks));
