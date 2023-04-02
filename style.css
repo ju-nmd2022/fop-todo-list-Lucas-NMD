@@ -19,7 +19,7 @@ form {
 
 ul {
     list-style: none;
-    padding: 0;
+    padding: 0.5em;
     margin: auto;
     max-width: 50%;
     text-align: left;
