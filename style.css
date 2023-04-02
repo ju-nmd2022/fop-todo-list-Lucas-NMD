@@ -26,6 +26,7 @@ ul {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.5em;
+    align-items: center;
     justify-items: center;
 }
 
