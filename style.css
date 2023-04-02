@@ -2,9 +2,18 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#container {
+    text-align: center;
+  }
+
 h1 {
     text-align: center;
 }
+
+form {
+    display: inline-block;
+    margin-top: 1em;
+  }
 
 ul {
     list-style: none;
