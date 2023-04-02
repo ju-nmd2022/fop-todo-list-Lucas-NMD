@@ -30,8 +30,8 @@ li {
     margin-bottom: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     align-items: baseline;
 }
 
