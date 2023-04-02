@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background: url(AdobeStock432902920.svg);
-    background-size:;
+    background: url(AdobeStock432902920.svg) no-repeat center fixed;
+    background-size: cover;
 }
 
 #container {
