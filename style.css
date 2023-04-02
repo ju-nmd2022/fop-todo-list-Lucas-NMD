@@ -18,19 +18,21 @@ form {
   }
 
 ul {
-    list-style: none;
+    list-style: decimal;
     padding: 0;
+    margin: 1em auto;
+    max-width: 50%;
+    text-align: left;
 }
 
 li {
     padding: 10px;
     margin-bottom: 5px;
-    background-color: #f7f7f7;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: baseline;
 }
 
 li.done {
